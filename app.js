@@ -27,5 +27,3 @@ yargs(hideBin(process.argv))
 },()=>{
     notes.readNote(argv.title)
 }).parse();
-
-// console.log(yargs(process.argv.slice(2)).argv)
